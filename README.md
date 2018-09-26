@@ -48,4 +48,13 @@ A model defines the relationship between features and label. For example, a spam
    * ***Training*** means creating or ***learning*** the model. That is, you show the model labeled examples and enable the model to gradually learn the relationships between features and label.
    * ***Inference*** means applying the trained model to unlabeled examples. That is, you use the trained model to make useful predictions **y'**. For example, during inference, you can predict **medianHouseValue** for new unlabeled examples.
 
+## Regression vs. classification
 
+A ***regression*** model predicts continuous values. For example, regression models make predictions that answer questions like the following:
+   * What is the value of a house in California?
+   * What is the probability that a user will click on this ad?
+   
+A ***classification*** model predicts discrete values. For example, classification models make predictions that answer questions like the following:
+   * Is a given email message spam or not spam?
+   * Is this an image of a dog, a cat, or a hamster?
+   
