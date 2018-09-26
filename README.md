@@ -31,6 +31,7 @@ housingMedianAge| totalRooms | totalBedrooms | medianHouseValue
 20 | 1454 | 326  | 65500
 
 An ***unlabeled example*** contains features but not the label. That is:  **unlabeled examples: {features, ?}: (x, ?)**
+
 Here are 3 unlabeled examples from the same housing dataset, which exclude **medianHouseValue**:
 
 housingMedianAge | totalRooms | totalBedrooms
