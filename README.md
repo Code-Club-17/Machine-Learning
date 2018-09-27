@@ -21,7 +21,9 @@ A ***labeled example*** includes both feature(s) and the label. That is: **label
 Use labeled examples to ***train*** the model. In our spam detector example, the labeled examples would be individual emails that users have explicitly marked as "spam" or "not spam."
 
 For example, the following table shows 5 labeled examples from a data set containing information about housing prices in California:
+
 ***features={housingMedianAge,totalRooms,totalBedrooms}***
+
 ***label={medianHouseValue}***
 
 housingMedianAge| totalRooms | totalBedrooms | medianHouseValue	
@@ -35,7 +37,8 @@ housingMedianAge| totalRooms | totalBedrooms | medianHouseValue
 An ***unlabeled example*** contains features but not the label. That is:  **unlabeled examples: {features, ?}: (x, ?)**
 
 Here are 3 unlabeled examples from the same housing dataset, which exclude **medianHouseValue**:
-features={housingMedianAge,totalRooms,totalBedrooms}
+
+***features={housingMedianAge,totalRooms,totalBedrooms}***
 
 housingMedianAge | totalRooms | totalBedrooms
 ---------------- | -----------| ------------
