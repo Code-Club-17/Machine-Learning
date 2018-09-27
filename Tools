@@ -1,0 +1,35 @@
+all you need to get start with Machine Learning is here
+
+Python Distributions :
+====================
+
+        1- Anaconda
+              ---------> www.anaconda.com
+        2- Canopy(enthought)
+              ---------> www.enthought.com/product/canopy
+              
+              
+Python Libraries for Data Science :
+=================================
+       
+       1- NumPy
+              ---------> www.numpy.org
+       2- Pandas
+              ---------> www.pandas.pydata.org
+       3- SciPy
+              ---------> www.scipy.org/scipylib
+       4- Matplotlib
+              ---------> www.matplotlib.org
+       5- Seaborn 
+              ---------> www.seaborn.pydata.org
+Python Packages and Libraries for ML :
+====================================
+ 
+       1- SciKit-Learn
+              ---------> www.scikit-learn.org
+       2- TensorFlow
+              ---------> www.tensorflow.org
+       3- Keras 
+              ---------> www.keras.io
+       4- Theano
+              ---------> www.pypi.org/project/Theano
