@@ -64,3 +64,16 @@ A ***classification*** model predicts discrete values. For example, classificati
    * Is a given email message spam or not spam?
    * Is this an image of a dog, a cat, or a hamster?
    
+Key Terms
+---------
+   ***classification model***
+   
+   A type of machine learning model for distinguishing among two or more discrete classes. For example, a natural language                  processing classification model could determine whether an input sentence was in French, Spanish, or Italian.
+   
+   ***inference***
+   
+   In machine learning, often refers to the process of making predictions by applying the trained model to unlabeled examples. In          statistics, inference refers to the process of fitting the parameters of a distribution conditioned on some observed data.               (See the Wikipedia article on statistical inference.)
+   
+   ***regression model***
+   
+   A type of model that outputs continuous (typically, floating-point) values.
