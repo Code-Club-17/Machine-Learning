@@ -1,0 +1,105 @@
+Machine Learning (Key Terms)
+----------------------------
+
+This keys defines general machine learning
+
+-- classification model
+          A type of machine learning model for distinguishing among two or more discrete classes.
+          For example, a natural language processing classification model could determine whether an input sentence was in French,Spanish,
+          or Italian.
+-- deep model
+          A type of neural network containing multiple hidden layers.
+          Contrast with wide model.
+-- dynamic model
+          A model that is trained online in a continuously updating fashion. That is, data is continuously entering the model
+-- empirical risk minimization (ERM)
+          Choosing the function that minimizes loss on the training set. Contrast with structural risk minimization.
+-- ensemble
+          A merger of the predictions of multiple models. You can create an ensemble via one or more of the following:
+              * different initializations
+              * different hyperparameters
+              * different overall structure
+              * Deep and wide models are a kind of ensemble.
+-- example
+          One row of a data set. An example contains one or more features and possibly a label.
+-- feature
+          An input variable used in making predictions.
+-- feature set
+          The group of features your machine learning model trains on. For example, postal code, property size, 
+          and property condition might comprise a simple feature set for a model that predicts housing prices.
+-- generalization
+          Refers to your model's ability to make correct predictions on new, previously unseen data as opposed to the data used to train the model.
+-- generalized linear model
+          A generalization of least squares regression models, which are based on Gaussian noise, to other types of models based on other types of noise, such as Poisson noise or categorical noise. Examples of generalized linear models include:
+              * logistic regression
+              * multi-class regression
+              * least squares regression
+          The parameters of a generalized linear model can be found through convex optimization.
+          Generalized linear models exhibit the following properties:
+              * The average prediction of the optimal least squares regression model is equal to the average label on the training data.
+              * The average probability predicted by the optimal logistic regression model is equal to the average label on the training data.
+          The power of a generalized linear model is limited by its features. Unlike a deep model, a generalized linear model cannot "learn new features."
+ -- inference
+          In machine learning, often refers to the process of making predictions by applying the trained model to unlabeled examples.
+          In statistics, inference refers to the process of fitting the parameters of a distribution conditioned on some observed data
+-- instance
+          Synonym for example.
+-- items
+          In a recommendation system, the entities that a system recommends. 
+          For example, videos are the items that a video store recommends, while books are the items that a bookstore recommends.
+-- Keras
+          A popular Python machine learning API. Keras runs on several deep learning frameworks, including TensorFlow, 
+          where it is made available as tf.keras.
+-- L1 loss
+          Loss function based on the absolute value of the difference between the values that a model is predicting and the actual values of the labels.
+          L1 loss is less sensitive to outliers than L2 loss.
+-- L2 loss
+          See squared loss.
+-- squared loss
+          The loss function used in linear regression. (Also known as L2 Loss.) This function calculates the squares of the difference between a model's predicted value for a labeled example and the actual value of the label.
+          Due to squaring, this loss function amplifies the influence of bad predictions. That is, squared loss reacts more strongly to outliers than L1 loss.
+-- label
+          In supervised learning, the "answer" or "result" portion of an example. Each example in a labeled data set consists of one or more features and a label. 
+          For instance, in a housing data set, the features might include the number of bedrooms, the number of bathrooms, and the age of the house, while the label might be the house's price.
+          In a spam detection dataset, the features might include the subject line, the sender, and the email message itself, while the label would probably be either "spam" or "not spam."
+-- labeled example
+          An example that contains features and a label. In supervised training, models learn from labeled examples.
+-- least squares regression
+          A linear regression model trained by minimizing L2 Loss.
+-- linear regression
+          A type of regression model that outputs a continuous value from a linear combination of input features.          
+-- logistic regression
+          A model that generates a probability for each possible discrete label value in classification problems by applying a sigmoid function to a linear prediction.
+          Although logistic regression is often used in binary classification problems, it can also be used in multi-class classification problems (where it becomes called multi-class logistic regression or multinomial regression).          
+-- loss
+          A measure of how far a model's predictions are from its label. Or, to phrase it more pessimistically, a measure of how bad the model is. To determine this value, a model must define a loss function.
+          For example, linear regression models typically use mean squared error for a loss function, while logistic regression models use Log Loss.          
+-- machine learning
+          A program or system that builds (trains) a predictive model from input data. The system uses the learned model to make useful predictions from new (never-before-seen) data drawn from the same distribution as the one used to train the model.
+          Machine learning also refers to the field of study concerned with these programs or systems.          
+-- minority class
+          The less common label in a class-imbalanced data set. For example, given a data set containing 99% non-spam labels and 1% spam labels, the spam labels are the minority class.          
+-- majority class
+          The more common label in a class-imbalanced data set. For example, given a data set containing 99% non-spam labels and 1% spam labels, the non-spam labels are the majority class.          
+-- model
+          The representation of what an ML system has learned from the training data. Within TensorFlow, model is an overloaded term, which can have either of the following two related meanings:
+              * The TensorFlow graph that expresses the structure of how a prediction will be computed.
+              * The particular weights and biases of that TensorFlow graph, which are determined by training.          
+ -- model training
+          The process of determining the best model.         
+ -- multi-class classification
+          Classification problems that distinguish among more than two classes. For example, there are approximately 128 species of maple trees, so a model that categorized maple tree species would be multi-class.
+          Conversely, a model that divided emails into only two categories (spam and not spam) would be a binary classification model.         
+ -- negative class
+          In binary classification, one class is termed positive and the other is termed negative. The positive class is the thing we're looking for and the negative class is the other possibility.
+          For example, the negative class in a medical test might be "not tumor." The negative class in an email classifier might be "not spam." See also positive class.         
+ -- positive class
+          In binary classification, the two possible classes are labeled as positive and negative. The positive outcome is the thing we're testing for. (Admittedly, we're simultaneously testing for both outcomes, but play along.)
+          For example, the positive class in a medical test might be "tumor." The positive class in an email classifier might be "spam."
+          Contrast with negative class.         
+          
+          
+          
+          
+          
+                    
